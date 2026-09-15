@@ -1,0 +1,15 @@
+{
+  "name": "EduBridge Nigeria",
+  "short_name": "EduBridge",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f5f0e7",
+  "theme_color": "#173f35",
+  "icons": [
+    {
+      "src": "assets/logo.svg",
+      "sizes": "64x64",
+      "type": "image/svg+xml"
+    }
+  ]
+}

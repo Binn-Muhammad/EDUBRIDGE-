@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#173f35">
+  <meta name="description" content="EduBridge Nigeria — everyday learning support with offline-first continuity for vulnerable schools.">
+  <title>EduBridge Nigeria | BBN 2.0</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-shell">
+      <a class="brand" href="#home" data-scroll>
+        <img src="assets/logo.svg" alt="EduBridge Nigeria logo">
+        <div>
+          <span class="brand-name">EduBridge</span>
+          <small>Nigeria</small>
+        </div>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+
+      <nav class="main-nav" id="mainNav">
+        <a href="#home" data-scroll>Home</a>
+        <a href="#problem" data-scroll>Problem</a>
+        <a href="#solution" data-scroll>Solution</a>
+        <a href="#how" data-scroll>How It Works</a>
+        <a href="#platform" data-scroll>Platform</a>
+        <a href="#offline" data-scroll>Offline-First</a>
+        <a href="#pilot" data-scroll>Pilot</a>
+        <a href="#impact" data-scroll>Impact</a>
+      </nav>
+
+      <a class="btn btn-dark desktop-cta" href="#platform" data-scroll>Open Demo</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow">BBN 2.0 · Education Track</span>
+          <h1>Learning should continue, even when access becomes difficult.</h1>
+          <p class="hero-text">
+            EduBridge Nigeria is an offline-first learning support system that strengthens
+            everyday literacy and numeracy and helps schools maintain learning during temporary disruption.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-green" href="#solution" data-scroll>Explore EduBridge</a>
+            <a class="btn btn-light" href="#platform" data-scroll>Try the Prototype</a>
+          </div>
+
+          <div class="hero-metrics" aria-label="Pilot summary">
+            <div><strong>3</strong><span>Pilot schools</span></div>
+            <div><strong>300</strong><span>Learners</span></div>
+            <div><strong>18</strong><span>Teachers</span></div>
+            <div><strong>6</strong><span>Months</span></div>
+          </div>
+        </div>
+
+        <div class="hero-media">
+          <div class="hero-photo" id="heroPhoto">
+          <div class="photo-caption">
+              <span class="caption-dot"></span>
+              <div>
+                <strong>Designed for real constraints</strong>
+                <small>Everyday learning + disruption readiness</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats-band">
+      <div class="container stats-grid">
+        <div><span class="stats-label">Built for</span><strong>Low-connectivity communities</strong></div>
+        <div><span class="stats-label">Primary use</span><strong>Everyday learning support</strong></div>
+        <div><span class="stats-label">Resilience layer</span><strong>Continuity during disruption</strong></div>
+        <div><span class="stats-label">Delivery</span><strong>Digital + printable</strong></div>
+      </div>
+    </section>
+
+    <section class="quick-access" aria-label="Quick access">
+      <div class="container quick-grid">
+        <button data-jump="problem"><span>01</span><strong>Understand the problem</strong><small>Why EduBridge is needed</small></button>
+        <button data-jump="solution"><span>02</span><strong>Explore the solution</strong><small>Five connected pillars</small></button>
+        <button data-open-view="learning"><span>03</span><strong>Learning support</strong><small>Everyday teacher use</small></button>
+        <button data-open-view="continuity"><span>04</span><strong>Continuity mode</strong><small>When access is disrupted</small></button>
+      </div>
+    </section>
+
+    <section class="section section-light" id="problem">
+      <div class="container two-col">
+        <div>
+          <span class="section-tag">The problem</span>
+          <h2>Learning gaps already exist. Disruption makes them worse.</h2>
+          <p class="section-lead">
+            Many learners in vulnerable communities struggle with foundational learning and unequal access to support.
+            When classroom attendance is interrupted by insecurity, displacement or other disruption, the same learners
+            risk falling even further behind.
+          </p>
+          <div class="quote-card">
+            <span>Central challenge</span>
+            <strong>How can schools support learning every day and keep it going when normal classroom access is disrupted?</strong>
+          </div>
+        </div>
+
+        <div class="problem-stack">
+          <article class="problem-card">
+            <div class="number">01</div>
+            <div><h3>Weak foundational support</h3><p>Learners who need extra literacy or numeracy help often receive limited targeted support.</p></div>
+          </article>
+          <article class="problem-card">
+            <div class="number">02</div>
+            <div><h3>Digital access is unequal</h3><p>Continuous internet, devices and electricity cannot be assumed in every vulnerable community.</p></div>
+          </article>
+          <article class="problem-card">
+            <div class="number">03</div>
+            <div><h3>Disruption breaks routines</h3><p>When physical attendance is interrupted, schools need a simple way to keep materials, teachers and families connected.</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="solution">
+      <div class="container">
+        <div class="section-heading center">
+          <span class="section-tag">Our solution</span>
+          <h2>One system. Five connected pillars.</h2>
+          <p>EduBridge is useful during normal school days and becomes a continuity system when disruption occurs.</p>
+        </div>
+
+        <div class="pillars-grid">
+          <button class="pillar active" data-pillar="learning">
+            <span class="pillar-no">01</span><span class="pillar-icon">Aa</span>
+            <strong>Foundational Learning</strong><small>Targeted literacy and numeracy support.</small>
+          </button>
+          <button class="pillar" data-pillar="teachers">
+            <span class="pillar-no">02</span><span class="pillar-icon">✦</span>
+            <strong>Teacher Micro-Training</strong><small>Short, practical implementation support.</small>
+          </button>
+          <button class="pillar" data-pillar="packs">
+            <span class="pillar-no">03</span><span class="pillar-icon">▤</span>
+            <strong>Learning Access Packs</strong><small>Printable and downloadable resources.</small>
+          </button>
+          <button class="pillar" data-pillar="community">
+            <span class="pillar-no">04</span><span class="pillar-icon">⌂</span>
+            <strong>Parent & Community Network</strong><small>Simple follow-up beyond the classroom.</small>
+          </button>
+          <button class="pillar" data-pillar="continuity">
+            <span class="pillar-no">05</span><span class="pillar-icon">↻</span>
+            <strong>Learning Continuity</strong><small>Structured support during temporary disruption.</small>
+          </button>
+        </div>
+
+        <div class="pillar-detail" id="pillarDetail">
+          <div class="detail-label">Pillar 01</div>
+          <div>
+            <h3>Foundational Learning</h3>
+            <p>Teachers use simple learner checks and short support sessions to strengthen core literacy and numeracy before gaps become bigger.</p>
+          </div>
+          <a href="#platform" class="text-link" data-scroll>See it in the prototype →</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-dark" id="how">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-tag light-tag">How it works</span>
+          <h2>One platform, two operating modes.</h2>
+          <p>Schools do not wait for a crisis to learn how the system works.</p>
+        </div>
+
+        <div class="mode-grid">
+          <div class="mode-card">
+            <div class="mode-top"><span>Normal school days</span><strong>EVERYDAY MODE</strong></div>
+            <ol>
+              <li><span>01</span><div><strong>Assess</strong><small>Identify learner needs and school context.</small></div></li>
+              <li><span>02</span><div><strong>Support</strong><small>Use literacy, numeracy and teacher resources.</small></div></li>
+              <li><span>03</span><div><strong>Track</strong><small>Record participation and progress simply.</small></div></li>
+              <li><span>04</span><div><strong>Improve</strong><small>Adapt support based on learner gaps.</small></div></li>
+            </ol>
+          </div>
+
+          <div class="mode-card accent-card">
+            <div class="mode-top"><span>When schooling is disrupted</span><strong>CONTINUITY MODE</strong></div>
+            <ol>
+              <li><span>01</span><div><strong>Activate</strong><small>Switch to the school's continuity workflow.</small></div></li>
+              <li><span>02</span><div><strong>Distribute</strong><small>Use prepared offline learning packs.</small></div></li>
+              <li><span>03</span><div><strong>Follow up</strong><small>Teachers and families keep learner contact organised.</small></div></li>
+              <li><span>04</span><div><strong>Recover</strong><small>Check gaps when normal schooling resumes.</small></div></li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-light" id="platform">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-tag">Interactive prototype</span>
+          <h2>Try the EduBridge workflow.</h2>
+          <p>Built for everyday teaching support first, with continuity tools ready when disruption occurs. Every module below is directly accessible.</p>
+        </div>
+
+        <div class="platform-shell">
+          <aside class="platform-menu">
+            <button class="platform-tab active" data-view="school"><span>01</span>School Profile</button>
+            <button class="platform-tab" data-view="readiness"><span>02</span>Readiness Check</button>
+            <button class="platform-tab" data-view="learning"><span>03</span>Learning Support</button>
+            <button class="platform-tab" data-view="resources"><span>04</span>Offline Resources</button>
+            <button class="platform-tab" data-view="continuity"><span>05</span>Continuity Mode</button>
+            <button class="platform-tab" data-view="dashboard"><span>06</span>Dashboard</button>
+          </aside>
+
+          <div class="platform-content">
+            <div class="platform-view active" id="view-school">
+              <div class="view-heading"><div><span>School setup</span><h3>Create a school profile</h3></div><span class="status-chip">Local demo</span></div>
+              <div class="form-grid">
+                <label>School name<input id="schoolName" placeholder="Unity Community Primary School"></label>
+                <label>State
+  <select id="state" required><option value="">Select state</option><option value="Abia">Abia</option><option value="Adamawa">Adamawa</option><option value="Akwa Ibom">Akwa Ibom</option><option value="Anambra">Anambra</option><option value="Bauchi">Bauchi</option><option value="Bayelsa">Bayelsa</option><option value="Benue">Benue</option><option value="Borno">Borno</option><option value="Cross River">Cross River</option><option value="Delta">Delta</option><option value="Ebonyi">Ebonyi</option><option value="Edo">Edo</option><option value="Ekiti">Ekiti</option><option value="Enugu">Enugu</option><option value="Gombe">Gombe</option><option value="Imo">Imo</option><option value="Jigawa">Jigawa</option><option value="Kaduna">Kaduna</option><option value="Kano">Kano</option><option value="Katsina">Katsina</option><option value="Kebbi">Kebbi</option><option value="Kogi">Kogi</option><option value="Kwara">Kwara</option><option value="Lagos">Lagos</option><option value="Nasarawa">Nasarawa</option><option value="Niger">Niger</option><option value="Ogun">Ogun</option><option value="Ondo">Ondo</option><option value="Osun">Osun</option><option value="Oyo">Oyo</option><option value="Plateau">Plateau</option><option value="Rivers">Rivers</option><option value="Sokoto">Sokoto</option><option value="Taraba">Taraba</option><option value="Yobe">Yobe</option><option value="Zamfara">Zamfara</option><option value="Federal Capital Territory (FCT)">Federal Capital Territory (FCT)</option></select>
+</label>
+<label>Local Government Area
+  <select id="lga" required disabled>
+    <option value="">Choose a state first</option>
+  </select>
+</label>
+                <label>School level<select id="schoolLevel"><option>Primary</option><option>Junior Secondary</option><option>Primary + Junior Secondary</option></select></label>
+                <label>Estimated learners<input id="learnerCount" type="number" value="300" min="1"></label>
+                <label>Internet access<select id="internetLevel"><option>Poor / unreliable</option><option>Limited</option><option>Good</option></select></label>
+                <label>Printing access<select id="printingAccess"><option>Available</option><option>Sometimes</option><option>Not available</option></select></label>
+              </div>
+              <div class="action-row"><button class="btn btn-green" id="saveProfileBtn">Save profile</button><span id="profileStatus" class="inline-status">No profile saved yet.</span></div>
+            </div>
+
+            <div class="platform-view" id="view-readiness">
+              <div class="view-heading">
+                <div>
+                  <span>Readiness</span>
+                  <h3>Check continuity preparation</h3>
+                  <p class="view-subtext" id="readinessContextText">Save the school profile first. The checklist will adapt to the selected State and LGA.</p>
+                </div>
+                <span class="status-chip" id="readinessCountChip">10 items</span>
+              </div>
+
+              <div class="state-context-banner" id="stateContextBanner">
+                <strong>State-aware checklist</strong>
+                <span>Core continuity questions stay the same, while selected questions adapt to the school's local context.</span>
+              </div>
+
+              <div id="readinessChecklist" class="checklist"></div>
+
+              <div class="action-row">
+                <button class="btn btn-green" id="scoreBtn">Calculate score</button>
+                <button class="btn btn-outline" id="printReadinessBtn">Print readiness report</button>
+              </div>
+              <div class="result-panel hidden" id="readinessResult"></div>
+            </div>
+
+            <div class="platform-view" id="view-learning">
+              <div class="view-heading"><div><span>Learning support</span><h3>Generate a sample activity</h3></div><span class="status-chip">Offline-friendly</span></div>
+              <div class="form-grid">
+                <label>Level<select id="activityLevel"><option>Primary 4</option><option>Primary 5</option><option>Primary 6</option><option>JSS 1</option></select></label>
+                <label>Area<select id="activityArea"><option>Literacy</option><option>Numeracy</option></select></label>
+                <label>Mode<select id="activityMode"><option>Normal School Day</option><option>Home / Low-Connectivity</option><option>Continuity Mode</option></select></label>
+                <label>Length<select id="activityLength"><option>20 minutes</option><option>30 minutes</option><option>45 minutes</option></select></label>
+              </div>
+              <div class="action-row"><button class="btn btn-green" id="generateActivityBtn">Generate activity</button></div>
+              <div class="result-panel" id="activityResult">Choose the options above, then generate an activity.</div>
+            </div>
+
+            <div class="platform-view" id="view-resources">
+              <div class="view-heading"><div><span>Offline resources</span><h3>Download practical materials</h3></div><span class="status-chip">Printable</span></div>
+              <div class="resource-grid">
+                <article><span>Teacher</span><h4>Teacher Continuity Guide</h4><p>Roles, follow-up and low-resource teaching guidance.</p><button class="mini-btn" data-download="teacher">Download guide</button></article>
+                <article><span>Parent</span><h4>Parent Learning Guide</h4><p>Simple home-learning support without continuous internet.</p><button class="mini-btn" data-download="parent">Download guide</button></article>
+                <article><span>Tracking</span><h4>Learner Follow-up Sheet</h4><p>Track materials received, completion and follow-up needs.</p><button class="mini-btn" data-download="tracking">Download sheet</button></article>
+                <article><span>Recovery</span><h4>Return-to-Learning Checklist</h4><p>Identify gaps and support a structured return to school.</p><button class="mini-btn" data-download="return">Download checklist</button></article>
+              </div>
+            </div>
+
+            <div class="platform-view" id="view-continuity">
+              <div class="view-heading">
+                <div>
+                  <span>Continuity mode</span>
+                  <h3>Continue learning during short or long disruption</h3>
+                  <p class="view-subtext">Existing learner data is only the starting point. EduBridge keeps learning moving through repeated curriculum-aligned cycles.</p>
+                </div>
+                <span class="status-chip warning">Education continuity</span>
+              </div>
+
+              <div class="info-note">
+                EduBridge supports learning continuity only. It does not replace emergency services, security agencies or official instructions.
+              </div>
+
+              <div class="continuity-setup-card">
+                <h4>Set the disruption plan</h4>
+                <div class="form-grid">
+                  <label>Affected class
+                    <select id="continuityClass">
+                      <option>Primary 4</option>
+                      <option selected>Primary 5</option>
+                      <option>Primary 6</option>
+                      <option>JSS 1</option>
+                    </select>
+                  </label>
+                  <label>Expected disruption period
+                    <select id="continuityDuration">
+                      <option value="2">2 weeks</option>
+                      <option value="4">1 month</option>
+                      <option value="12">3 months</option>
+                      <option value="20">5 months</option>
+                    </select>
+                  </label>
+                  <label>Learning focus
+                    <select id="continuityFocus">
+                      <option>Foundational Literacy + Numeracy</option>
+                      <option>Literacy</option>
+                      <option>Numeracy</option>
+                      <option>Core curriculum support</option>
+                    </select>
+                  </label>
+                  <label>Primary delivery method
+                    <select id="continuityChannel">
+                      <option>Printed packs</option>
+                      <option>Printed packs + phone/WhatsApp follow-up</option>
+                      <option>Offline downloadable files</option>
+                      <option>Approved community collection point</option>
+                    </select>
+                  </label>
+                </div>
+                <div class="action-row">
+                  <button class="btn btn-green" id="buildContinuityPlanBtn">Build continuity plan</button>
+                </div>
+              </div>
+
+              <div class="continuity-cycle-panel" id="continuityPlanOutput">
+                <div class="cycle-intro">
+                  <span>How long disruption is handled</span>
+                  <h4>Not one old pack repeated for months.</h4>
+                  <p>The latest learner record gives the baseline. Every new cycle introduces or reinforces curriculum-aligned learning, followed by a short check that determines what comes next.</p>
+                </div>
+                <div class="cycle-steps">
+                  <article><b>01</b><strong>Baseline</strong><span>Latest learner record + short starting check.</span></article>
+                  <article><b>02</b><strong>Teach</strong><span>New 1–2 week learning pack aligned to level and curriculum.</span></article>
+                  <article><b>03</b><strong>Check</strong><span>Short reassessment or teacher/parent follow-up.</span></article>
+                  <article><b>04</b><strong>Adapt</strong><span>Advance, reinforce or simplify the next cycle.</span></article>
+                  <article><b>05</b><strong>Re-enter</strong><span>Return-to-school assessment and catch-up plan.</span></article>
+                </div>
+              </div>
+
+              <div class="five-month-card hidden" id="fiveMonthExample">
+                <h4>Example: if disruption lasts 5 months</h4>
+                <div class="month-grid">
+                  <article><span>Month 1</span><strong>Stabilise</strong><p>Baseline, priority support and first learning cycles.</p></article>
+                  <article><span>Month 2</span><strong>Progress</strong><p>New content + short reassessments.</p></article>
+                  <article><span>Month 3</span><strong>Continue</strong><p>Move through the curriculum sequence at the learner's demonstrated level.</p></article>
+                  <article><span>Month 4</span><strong>Recover</strong><p>Extra support for learners falling behind or missing learning cycles.</p></article>
+                  <article><span>Month 5</span><strong>Prepare return</strong><p>Final continuity check and re-entry priorities.</p></article>
+                </div>
+              </div>
+
+              <div class="continuity-check-block">
+                <h4>Operational continuity checklist</h4>
+                <div id="continuityChecklist" class="checklist compact"></div>
+              </div>
+
+              <div class="action-row">
+                <button class="btn btn-green" id="downloadContinuityBtn">Download continuity plan</button>
+                <button class="btn btn-outline" id="printBtn">Print this page</button>
+              </div>
+            </div>
+
+            <div class="platform-view" id="view-dashboard">
+              <div class="view-heading"><div><span>Dashboard</span><h3>See the pilot at a glance</h3></div><span class="status-chip">Demo data</span></div>
+              <div class="dashboard-grid">
+                <div><span>Readiness</span><strong id="dashReadiness">—</strong><small>Latest assessment</small></div>
+                <div><span>Learners</span><strong id="dashLearners">300</strong><small>School profile</small></div>
+                <div><span>Teachers</span><strong>18</strong><small>Pilot target</small></div>
+                <div><span>Downloads</span><strong id="dashDownloads">0</strong><small>This device</small></div>
+              </div>
+              <div class="dashboard-note">Pilot concept: 3 public schools · 300 learners · 18 teachers · 6 months.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="offline">
+      <div class="container">
+        <div class="section-heading center">
+          <span class="section-tag">Offline-first by design</span>
+          <h2>Internet helps. It is not the foundation.</h2>
+          <p>The core learning experience can still work when connectivity is weak or unavailable.</p>
+        </div>
+
+        <div class="offline-grid">
+          <article><div class="offline-icon">▤</div><h3>Printable packs</h3><p>Core materials can be printed before they are needed.</p></article>
+          <article><div class="offline-icon">↓</div><h3>Download once</h3><p>Resources can be saved when connectivity is available and reused later.</p></article>
+          <article><div class="offline-icon">⌂</div><h3>Home support</h3><p>Parents receive simple guidance rather than complex digital instructions.</p></article>
+          <article><div class="offline-icon">✓</div><h3>Simple tracking</h3><p>Paper and digital follow-up can work together instead of depending on one platform.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-cream" id="pilot">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-tag">Pilot plan</span>
+          <h2>Small enough to test. Structured enough to learn.</h2>
+          <p>A six-month pilot can test whether the model improves everyday support and disruption readiness before scale-up.</p>
+        </div>
+
+        <div class="timeline">
+          <article><span>Month 1</span><strong>Baseline & setup</strong><p>School profile, learner needs, teacher orientation and materials planning.</p></article>
+          <article><span>Months 2–3</span><strong>Everyday learning</strong><p>Foundational clinics, teacher support and learning pack use.</p></article>
+          <article><span>Months 3–4</span><strong>Community follow-up</strong><p>Parent guidance and simple learner participation tracking.</p></article>
+          <article><span>Month 5</span><strong>Continuity simulation</strong><p>Test the offline workflow without waiting for a real disruption.</p></article>
+          <article><span>Month 6</span><strong>Evaluate & improve</strong><p>Review learning outcomes, reach, usability and readiness gaps.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-dark" id="impact">
+      <div class="container">
+        <div class="section-heading center">
+          <span class="section-tag light-tag">Expected impact</span>
+          <h2>Stronger learning. Stronger school resilience.</h2>
+          <p>EduBridge focuses on practical outcomes schools can observe and measure.</p>
+        </div>
+
+        <div class="impact-grid">
+          <article><strong>01</strong><h3>Better foundational support</h3><p>More structured literacy and numeracy help for learners who need it.</p></article>
+          <article><strong>02</strong><h3>More prepared teachers</h3><p>Simple tools and routines that are usable before, during and after disruption.</p></article>
+          <article><strong>03</strong><h3>Stronger family connection</h3><p>Parents understand how to support short learning activities at home.</p></article>
+          <article><strong>04</strong><h3>Less learning interruption</h3><p>Prepared offline materials reduce dependence on perfect connectivity.</p></article>
+        </div>
+
+        <div class="closing-cta">
+          <div>
+            <span>EduBridge Nigeria</span>
+            <h2>A child's education should not depend on perfect circumstances.</h2>
+          </div>
+          <a href="#platform" class="btn btn-light" data-scroll>Explore the prototype</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-grid">
+      <div class="brand footer-brand">
+        <img src="assets/logo.svg" alt="">
+        <div><span class="brand-name">EduBridge</span><small>Nigeria</small></div>
+      </div>
+      <p>Education first. Resilience built in.</p>
+      <p>BBN 2.0 competition prototype · 2026</p>
+    </div>
+  </footer>
+
+  <button class="back-top" id="backTop" aria-label="Back to top">↑</button>
+  <script src="app.js"></script>
+</body>
+</html>

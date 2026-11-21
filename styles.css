@@ -270,7 +270,7 @@ footer{background:#0c2721;color:#bdd0c6;padding:27px 0}
 /* V4 professional refinement */
 :root{--green-950:#0B2F28;--green-900:#123D34;--green-800:#1B5144;--green-700:#2B6B59;--green-100:#E7EFEA;--cream:#F3EFE6;--cream-2:#FAF8F3;--paper:#FFFFFF;--ink:#14211D;--muted:#617069;--line:#D9E0DB;--gold:#B89452;}
 .hero-photo {
-    background-image: linear-gradient(160deg, rgba(11,47,40,.02), rgba(11,47,40,.46)), url("assets/homepage.jpg");
+    background-image: linear-gradient(160deg, rgba(11,47,40,.02), rgba(11,47,40,.46)), url("assets/Homepage.jpg");
     background-size: cover;
     background-position: center;
     background-color: #B9C9C0;

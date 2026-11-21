@@ -1,4 +1,4 @@
-const CACHE = 'edubridge-bbn-v5';
+const CACHE = 'edubridge-bbn-v6';
 
 const ASSETS = [
     './',
@@ -7,7 +7,7 @@ const ASSETS = [
     './app.js',
     './manifest.json',
     './assets/logo.svg',
-    './assets/homepage.jpg'
+    './assets/Homepage.jpg'
 ];
 
 self.addEventListener('install', e => {
